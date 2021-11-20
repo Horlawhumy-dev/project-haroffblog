@@ -1,0 +1,19 @@
+@import "scss/Utils.scss";
+@import "scss/Config.scss";
+
+*{
+  @include reset-list;
+}
+
+body {
+  @include body-config;
+}
+
+code {
+ @include code-config;
+}
+
+a{
+  text-decoration: none;
+  color: $base-color;
+}

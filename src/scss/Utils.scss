@@ -1,0 +1,26 @@
+// reset list for *
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+
+//   body config
+@mixin body-config {
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #F2F2F2;
+}
+
+// code config
+@mixin code-config {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@mixin transform-hover {
+    transform: scaleY(1.1) scaleX(1.2);
+    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    color: $hover-color;
+}

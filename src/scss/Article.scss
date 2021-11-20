@@ -1,0 +1,59 @@
+@import "../scss/Utils.scss";
+@import "../scss/Config.scss";
+
+.Article-div{
+    // background-color: aqua;
+    width: 60%;
+    padding: 1rem 0;
+
+    .article-container{
+        background-color: $base-color;
+        padding: 1rem;
+        width: 90%;
+        border-radius: .5em;
+        margin-bottom: 2rem;
+        .topic-div{
+            margin-bottom: 1em;
+        }
+
+        .date-div{
+            margin-bottom: 1.5em;
+            display: flex;
+            span{
+                margin: 0 .5em;
+            }
+        }
+
+        .showcase-div{
+            // background-color: blue;
+            padding: 1em 0;
+            display: flex;
+           
+            .article-image{
+                width: 40%;
+            }
+            .article-div-intro{
+                width: 60%;
+
+                .intro-div{
+                    // margin-bottom: 1rem;
+
+                    p{
+                        line-height: 1;
+                        color: $header-color;
+                        letter-spacing: 5px;
+                    }
+                }
+
+                .readmore-div{
+                    margin-top: 1rem;
+
+                    button{
+                        padding: 1rem 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+}

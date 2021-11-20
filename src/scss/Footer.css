@@ -1,0 +1,42 @@
+.Footer-div {
+  background-color: #002538;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.Footer-div .footer-div1 {
+  width: 50%;
+  margin-top: 1rem;
+}
+.Footer-div .footer-div2 {
+  margin: 0 1rem;
+}
+.Footer-div .footer-div2 form {
+  width: 100%;
+  padding: 1rem;
+}
+.Footer-div .footer-div2 form input {
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  font-size: large;
+  border-radius: 0.5rem;
+}
+.Footer-div .footer-div2 form button {
+  background-color: #fff;
+  border: none;
+  outline: none;
+  padding: 0.6rem 1rem;
+  border-radius: 0.5rem;
+  color: #002538;
+  cursor: pointer;
+}
+.Footer-div .footer-div2 form button:focus {
+  background-color: #00aaff;
+  color: #fff;
+}
+.Footer-div .footer-div2 form button:hover {
+  transform: scaleY(1.1);
+  transition: 1ms ease-in-out;
+}/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,42 @@
+.Article-div {
+  width: 60%;
+  padding: 1rem 0;
+}
+.Article-div .article-container {
+  background-color: #fff;
+  padding: 1rem;
+  width: 90%;
+  border-radius: 0.5em;
+  margin-bottom: 2rem;
+}
+.Article-div .article-container .topic-div {
+  margin-bottom: 1em;
+}
+.Article-div .article-container .date-div {
+  margin-bottom: 1.5em;
+  display: flex;
+}
+.Article-div .article-container .date-div span {
+  margin: 0 0.5em;
+}
+.Article-div .article-container .showcase-div {
+  padding: 1em 0;
+  display: flex;
+}
+.Article-div .article-container .showcase-div .article-image {
+  width: 40%;
+}
+.Article-div .article-container .showcase-div .article-div-intro {
+  width: 60%;
+}
+.Article-div .article-container .showcase-div .article-div-intro .intro-div p {
+  line-height: 1;
+  color: #0000;
+  letter-spacing: 5px;
+}
+.Article-div .article-container .showcase-div .article-div-intro .readmore-div {
+  margin-top: 1rem;
+}
+.Article-div .article-container .showcase-div .article-div-intro .readmore-div button {
+  padding: 1rem 2rem;
+}/*# sourceMappingURL=Article.css.map */

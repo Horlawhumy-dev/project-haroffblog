@@ -1,0 +1,61 @@
+.App-header .Center-header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.App-header .Center-header .welcome-div h1 {
+  width: 100%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  font-size: 8rem;
+  margin: 0 0 0.5rem 0;
+}
+.App-header .Center-header .welcome-div h3 {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 3em;
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+}
+.App-header .Center-header .form-div {
+  margin-top: 1.5em;
+  padding: 1em 0;
+  width: 75%;
+}
+.App-header .Center-header .form-div form {
+  width: 100%;
+  padding: 1em 2em;
+}
+.App-header .Center-header .form-div form input {
+  padding: 2em 0;
+  border: none;
+  font-size: large;
+  width: 80%;
+  border-radius: 0.5em;
+  text-align: center;
+  outline: none;
+}
+.App-header .Center-header .form-div form input:focus {
+  border: none;
+}
+.App-header .Center-header .form-div form button {
+  padding: 2.5em 0;
+  border: none;
+  width: 10%;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+.App-header .Center-header .form-div form button .search-icon {
+  font-size: large;
+}
+.App-header .Center-header .form-div form button:active {
+  transform: scaleY(1.05);
+  transition: cubic-bezier(0.215, 0.61, 0.355, 0);
+}
+.App-header .Center-header .form-div form button:focus {
+  background-color: #00aaff;
+  color: #fff;
+}/*# sourceMappingURL=Home.css.map */

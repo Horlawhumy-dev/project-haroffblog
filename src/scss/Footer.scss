@@ -1,0 +1,52 @@
+@import "../scss/Utils.scss";
+@import "../scss/Config.scss";
+
+.Footer-div{
+    background-color: $header-footer;
+    color: $base-color  ;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+
+    .footer-div1{
+        width: 50%;
+        margin-top: 1rem;
+    }
+
+    .footer-div2{
+       margin: 0 1rem;
+
+       form{
+           width: 100%;
+           padding: 1rem;
+           
+           input{
+               padding: .5rem 1rem;
+               border: none;
+               outline: none;
+               font-size: large;
+               border-radius: .5rem;
+           }
+
+           button{
+               background-color: $base-color;
+               border: none;
+               outline: none;   
+               padding: .6rem 1rem;
+               border-radius: .5rem;
+               color: $header-footer;
+               cursor: pointer;
+           }
+
+           button:focus{
+               background-color: $hover-color;
+               color: $base-color;
+           }
+
+           button:hover{
+            transform: scaleY(1.1);
+            transition: 1ms ease-in-out;
+           }
+       }
+    }
+}

@@ -1,0 +1,61 @@
+@import "../scss/Config.scss";
+@import "../scss/Utils.scss";
+
+.Outer-div {
+    background-color: $header-footer;
+    color: $base-color;
+}
+.Nav{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+
+    .Nav-logo{
+        margin: 0 1em;
+        color: $base-color;
+        font-size: xx-large;
+
+        .nav-link h4:hover{
+           @include transform-hover;
+        }
+    }
+
+    .Nav-center {
+        ul{
+            display: flex;
+            li {
+                margin: 0 1em;
+                list-style: none;
+                color: $base-color;
+                font-size: x-large;
+
+                .nav-link:hover{
+                    color: $hover-color;
+                }
+            }
+
+            
+        }
+        
+    }
+
+    .Nav-right {
+        display: flex;
+        .Ext-link{
+            margin: 0 1em;
+            font-size: x-large;
+            color: $base-color;
+        }
+
+        .Ext-link:hover{
+            @include transform-hover;
+        }
+    }
+}
+
+
+
+
+

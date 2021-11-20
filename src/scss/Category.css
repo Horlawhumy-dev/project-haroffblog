@@ -1,0 +1,35 @@
+.Category-div {
+  width: 40%;
+  padding: 1rem 2rem;
+}
+.Category-div h1 {
+  color: #002538;
+  text-align: center;
+  margin: 0 auto 1rem auto;
+}
+.Category-div .topics-div {
+  display: flex;
+}
+.Category-div .topics-div .topics-category {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+  border-radius: 0.5rem;
+  background-color: #002538;
+  padding: 0.3rem 1rem;
+}
+.Category-div .topics-div .topics-category h4 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.Category-div .topics-div .topics-category span {
+  margin: 0 0.5rem;
+  text-align: center;
+  background-color: #fff;
+  padding: 0.1rem;
+  border-radius: 50%;
+}
+.Category-div .topics-div .topics-category:hover {
+  background-color: #00aaff;
+}/*# sourceMappingURL=Category.css.map */

@@ -1,0 +1,50 @@
+@import "../scss/Utils.scss";
+@import "../scss/Config.scss";
+
+
+.Category-div{
+    // background-color: blue;
+    width: 40%;
+    padding: 1rem 2rem;
+
+    h1{
+        color: $header-footer;
+        text-align: center;
+        margin: 0 auto 1rem auto;
+    }
+
+    .topics-div{
+        display: flex;
+
+        .topics-category{
+            display: flex;
+            justify-content: space-between;
+            margin: 0 1rem;
+            border-radius: .5rem;
+            background-color: $header-footer;
+            padding: .3rem 1rem;
+            
+    
+            h4{
+                // line-break: auto;
+                text-align: center;
+                color: $base-color;
+                text-transform: uppercase;
+            }
+            span{
+                margin: 0 .5rem;
+                text-align: center;
+                background-color: $base-color;
+                padding: .1rem;
+                border-radius: 50%;
+            }
+        }
+
+        .topics-category:hover{
+            background-color: $hover-color;
+        }
+   
+    }
+
+    
+}
