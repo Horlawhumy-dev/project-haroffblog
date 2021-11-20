@@ -1,5 +1,6 @@
 import React from 'react';
 import {BsFillCalendarCheckFill} from 'react-icons/bs';
+import {Link} from 'react-router-dom';
 
 import '../../scss/Article.scss';
 
@@ -34,10 +35,11 @@ const Article = () => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla labore corrupti odio ipsam accusantium! 
                                 Deserunt accusamus unde quod est repudiandae placeat itaque cupiditate vero reprehenderit minus, 
                                 exercitationem hic ullam perferendis rerum voluptates harum nostrum voluptatibus nesciunt ex ea incidunt 
-                                consequuntur atque tenetur! Fugiat similique accusantium doloribus? Amet culpa est possimus!</p>
+                                consequuntur atque tenetur! Fugiat similique accusantium doloribus? Amet culpa est possimus!
+                            </p>
                         </div>
                         <div className="readmore-div">
-                            <button>Read More</button>
+                            <Link className="readmore-link" to="#">Read More</Link>
                         </div>
                     </div>
 
@@ -71,10 +73,10 @@ const Article = () => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla labore corrupti odio ipsam accusantium! 
                                 Deserunt accusamus unde quod est repudiandae placeat itaque cupiditate vero reprehenderit minus, 
                                 exercitationem hic ullam perferendis rerum voluptates harum nostrum voluptatibus nesciunt ex ea incidunt 
-                                consequuntur atque tenetur! Fugiat similique accusantium doloribus? Amet culpa est possimus!</p>
+                            </p>
                         </div>
                         <div className="readmore-div">
-                            <button>Read More</button>
+                            <Link className="readmore-link" to="#">Read More</Link>
                         </div>
                     </div>
 

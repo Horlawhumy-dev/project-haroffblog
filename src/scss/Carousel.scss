@@ -1,0 +1,31 @@
+@import '../scss/Config.scss';
+@import '../scss/Utils.scss';
+
+
+.Carousel-div{
+    // background-color: aqua;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 2rem;
+    text-align: center;
+
+    .carousel-nav-div{
+        background-color: $header-footer;
+        display: flex;
+       
+        margin: 0 0 2rem;
+        padding: .5rem 1rem;
+        border-radius: 1rem;
+        color: $base-color;
+        cursor: pointer;
+        .carousel-link{
+            // color: $hover-color;
+            margin: 0 .5rem;
+        }
+    }
+
+    .carousel-nav-div:hover{
+       @include transform-hover;
+    }
+}

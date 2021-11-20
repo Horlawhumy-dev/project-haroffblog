@@ -11,6 +11,7 @@
         padding: 1rem;
         width: 90%;
         border-radius: .5em;
+        border: 0px 2px 4px 3px;
         margin-bottom: 2rem;
         .topic-div{
             margin-bottom: 1em;
@@ -30,27 +31,40 @@
             display: flex;
            
             .article-image{
-                width: 40%;
-            }
-            .article-div-intro{
-                width: 60%;
+                width: 30%;
 
+                img{
+                    width:180px;
+                    height:180px;
+                    object-fit:cover;
+                }
+            }
+            .article-intro-div{
+                width: 70%;
                 .intro-div{
-                    // margin-bottom: 1rem;
 
                     p{
-                        line-height: 1;
-                        color: $header-color;
-                        letter-spacing: 5px;
+                        line-height:1.5;
+                        color: black;
+                        // letter-spacing: 5px;
+                        
                     }
                 }
 
                 .readmore-div{
                     margin-top: 1rem;
+                    color: $base-color;
+                    background-color: $header-footer;
+                    border-radius: 1.5rem;
+                    width: 30%;
+                    text-align: center;
+                    cursor: pointer;
+                    padding: 1rem;
+                }
 
-                    button{
-                        padding: 1rem 2rem;
-                    }
+                .readmore-div:hover{
+                    background-color: $hover-color;
+                    transition: all 1.5s ease-in; 
                 }
             }
         }

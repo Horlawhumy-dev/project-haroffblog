@@ -20,7 +20,7 @@
 }
 
 @mixin transform-hover {
-    transform: scaleY(1.1) scaleX(1.2);
-    transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+    transform: scaleY(1.1) scaleX(1.1);
+    transition: 5ms ease-in-out;
     color: $hover-color;
 }
