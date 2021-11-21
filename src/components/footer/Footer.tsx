@@ -6,6 +6,7 @@ const Footer = () => {
         <div className='Footer-div'>
             <div className="footer-div1">
                 <h2>Copyright &copy; HaroffBlog 2021.</h2>
+                <h6>All rights reserved.</h6>
             </div>
             <div className="footer-div2">
                 <h2>Subscribe Now</h2>
