@@ -5,9 +5,9 @@ import Aux from '.././../hoc/Auxiliary'
 
 import '../../scss/Home.scss';
 import '../../scss/Responsive.scss';
-import Header from '../homepage/Header';
+import Header from '../header/Header';
 import Carousel from '../homepage/Carousel';
-import Section from '../../components/main/Section';
+import Section from '../body/Section';
 import Footer from '../../components/footer/Footer';
 
 const HomePage = () => {

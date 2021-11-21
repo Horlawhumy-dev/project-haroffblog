@@ -7,14 +7,14 @@
 }
 .Footer-div .footer-div1 {
   width: 50%;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 .Footer-div .footer-div2 {
   margin: 0 1rem;
 }
 .Footer-div .footer-div2 form {
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 .Footer-div .footer-div2 form input {
   padding: 0.5rem 1rem;

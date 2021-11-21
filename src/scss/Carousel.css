@@ -1,0 +1,24 @@
+.Carousel-div {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+.Carousel-div .carousel-nav-div {
+  background-color: #002538;
+  display: flex;
+  margin: 0 0 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+.Carousel-div .carousel-nav-div .carousel-link {
+  margin: 0 0.5rem;
+}
+.Carousel-div .carousel-nav-div:hover {
+  transform: scaleY(1.1) scaleX(1.1);
+  transition: 5ms ease-in-out;
+  color: #00aaff;
+}/*# sourceMappingURL=Carousel.css.map */

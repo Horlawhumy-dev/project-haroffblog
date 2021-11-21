@@ -7,6 +7,7 @@
   padding: 1rem;
   width: 90%;
   border-radius: 0.5em;
+  border: 0px 2px 4px 3px;
   margin-bottom: 2rem;
 }
 .Article-div .article-container .topic-div {
@@ -24,19 +25,32 @@
   display: flex;
 }
 .Article-div .article-container .showcase-div .article-image {
-  width: 40%;
+  width: 30%;
 }
-.Article-div .article-container .showcase-div .article-div-intro {
-  width: 60%;
+.Article-div .article-container .showcase-div .article-image img {
+  width: 180px;
+  height: 180px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-.Article-div .article-container .showcase-div .article-div-intro .intro-div p {
-  line-height: 1;
-  color: #0000;
-  letter-spacing: 5px;
+.Article-div .article-container .showcase-div .article-intro-div {
+  width: 70%;
 }
-.Article-div .article-container .showcase-div .article-div-intro .readmore-div {
+.Article-div .article-container .showcase-div .article-intro-div .intro-div p {
+  line-height: 1.5;
+  color: black;
+}
+.Article-div .article-container .showcase-div .article-intro-div .readmore-div {
   margin-top: 1rem;
+  color: #fff;
+  background-color: #002538;
+  border-radius: 1.5rem;
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+  padding: 1rem;
 }
-.Article-div .article-container .showcase-div .article-div-intro .readmore-div button {
-  padding: 1rem 2rem;
+.Article-div .article-container .showcase-div .article-intro-div .readmore-div:hover {
+  background-color: #00aaff;
+  transition: all 1.5s ease-in;
 }/*# sourceMappingURL=Article.css.map */
