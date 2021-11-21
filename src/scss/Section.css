@@ -2,4 +2,22 @@
   display: flex;
   justify-content: space-between;
   padding: 2rem 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .Section-div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 769px) {
+  .Section-div {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media all and (max-width: 500px) {
+  .Section-div {
+    padding: 0;
+  }
 }/*# sourceMappingURL=Section.css.map */

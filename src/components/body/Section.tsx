@@ -2,7 +2,7 @@ import React from 'react';
 
 // import Aux from '../../hoc/Auxiliary';
 import Article from './Article';
-import Category from './Category';
+import Category from '../category/Category';
 
 import '../../scss/Section.scss';
 

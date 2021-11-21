@@ -27,7 +27,7 @@ const Article = () => {
                 </div>
                 <div className="showcase-div">
                     <div className="article-image">
-                        <img src="https://jhooq.com/wp-content/uploads/2020/06/Kubernetes_cropped-logo.webp?ezimgfmt=rs:186x176/rscb90/ng:webp/ngcb90" 
+                        <img src="https://jhooq.com/wp-content/uploads/2020/05/about-us-image-1536x1152.jpg?ezimgfmt=rs:505x379/rscb90/ng:webp/ngcb90" 
                         alt="for article" />
                     </div>
                     <div className="article-intro-div">
@@ -65,7 +65,7 @@ const Article = () => {
                 </div>
                 <div className="showcase-div">
                     <div className="article-image">
-                        <img src="https://jhooq.com/wp-content/uploads/2020/06/Kubernetes_cropped-logo.webp?ezimgfmt=rs:186x176/rscb90/ng:webp/ngcb90" 
+                        <img src="https://jhooq.com/wp-content/uploads/2020/05/about-us-image-1536x1152.jpg?ezimgfmt=rs:505x379/rscb90/ng:webp/ngcb90" 
                         alt="for article" />
                     </div>
                     <div className="article-intro-div">
@@ -73,6 +73,7 @@ const Article = () => {
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla labore corrupti odio ipsam accusantium! 
                                 Deserunt accusamus unde quod est repudiandae placeat itaque cupiditate vero reprehenderit minus, 
                                 exercitationem hic ullam perferendis rerum voluptates harum nostrum voluptatibus nesciunt ex ea incidunt 
+                                consequuntur atque tenetur! Fugiat similique accusantium doloribus? Amet culpa est possimus!
                             </p>
                         </div>
                         <div className="readmore-div">

@@ -7,7 +7,7 @@
 }
 .Footer-div .footer-div1 {
   width: 50%;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 .Footer-div .footer-div2 {
   margin: 0 1rem;
@@ -39,4 +39,25 @@
 .Footer-div .footer-div2 form button:hover {
   transform: scaleY(1.1);
   transition: 1ms ease-in-out;
+}
+
+/*--------- medai query ---------*/
+@media screen and (max-width: 768px) {
+  .Footer-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .Footer-div .footer-div1 {
+    display: flex;
+    width: 90%;
+    padding: 0.5em 0;
+    justify-content: space-around;
+    margin-right: 1rem;
+  }
+  .Footer-div .footer-div2 {
+    width: 90%;
+    text-align: center;
+    margin: 0;
+  }
 }/*# sourceMappingURL=Footer.css.map */

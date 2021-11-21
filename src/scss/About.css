@@ -1,0 +1,35 @@
+.About-div {
+  width: 60%;
+}
+.About-div .about-div1 {
+  margin-bottom: 1rem;
+}
+.About-div .date-div {
+  margin-bottom: 1.5em;
+  display: flex;
+}
+.About-div .date-div span {
+  margin: 0 0.5em;
+}
+.About-div .about-body .last-paragraph {
+  background-color: #002538;
+  border-left: 5px solid #00aaff;
+  padding: 1rem;
+  color: #fff;
+}
+.About-div .about-body .about-writer {
+  display: flex;
+}
+.About-div .about-body .about-writer img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.About-div .about-body .about-writer p {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+.About-div .about-body .about-writer p .writer-linkedin {
+  color: #002538;
+}/*# sourceMappingURL=About.css.map */

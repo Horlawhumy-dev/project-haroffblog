@@ -1,2 +1,40 @@
 @import '../scss/Config.scss';
-@import '../scss/Utils.scss';
+.About-div{
+    width: 60%;
+   .about-div1{
+       margin-bottom:1rem;
+   }
+    .date-div{
+        margin-bottom: 1.5em;
+        display: flex;
+        span{
+            margin: 0 .5em;
+        }
+    }
+
+    .about-body{
+        .last-paragraph{
+            background-color: $header-footer;
+            border-left: 5px solid $hover-color;
+            padding: 1rem;
+            color: $base-color;
+        }
+        .about-writer{
+            display: flex;
+
+            img{
+                width:200px;
+                height:200px;
+                object-fit:cover;
+            }
+
+            p{
+                margin-top: 1rem;
+                margin-left: 1.5rem;
+                .writer-linkedin{
+                    color: $header-footer;
+                }
+            }
+        }
+    }
+}

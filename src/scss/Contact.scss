@@ -1,2 +1,81 @@
 @import '../scss/Config.scss';
 @import '../scss/Utils.scss';
+
+.Contact-div{
+    width: 60%;
+    .contact-div1{
+        margin-bottom: 1rem;
+    }
+    .date-div{
+        margin-bottom: 1.5em;
+        display: flex;
+        span{
+            margin: 0 .5em;
+        }
+    }
+
+    .contact-body{
+        .last-paragraph{
+            background-color: $header-footer;
+            border-left: 5px solid $hover-color;
+            padding: 1rem;
+            color: $base-color;
+            font-size: larger;
+            .profile-link{
+                margin-right: 2rem;
+                font-size: xx-large;
+            }
+
+            .profile-link:hover{
+                @include transform-hover;
+            }
+        }
+    }
+
+    .contact-form{
+        width: 60%;
+        margin: 2rem auto;
+        h2{ 
+            text-align: center;
+        }
+        form{
+            width: 100%;
+            input{
+                width: 100%;
+                margin: 1rem 0;
+                padding: 1rem;
+                outline: none;
+                border: 2px solid $hover-color;
+                font-size: larger;
+            }
+
+            textarea{
+                columns: 30;
+                outline: none;
+                border: 2px solid $hover-color;
+            }
+
+            button{
+                display: block;
+                margin: 1rem auto;
+                padding: 1rem 2rem;
+                border: 2px solid $hover-color;
+                cursor: pointer;
+            }
+
+            
+            button:hover{
+                background-color: $header-footer;
+                color: $base-color;
+                border: none;
+                transition: all 1s ease-in-out;
+            }
+
+            button:focus{
+                background-color: $header-footer;
+                color: $base-color;
+                border: none;
+            }
+        }
+    }
+}

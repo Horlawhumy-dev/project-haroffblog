@@ -31,9 +31,8 @@ const Navbar = () => {
                         <ExternalLink href="https://github.com/Horlawhumy-dev">
                                 <FaGithubSquare />
                         </ExternalLink>
-                   </div>
-                   
-                   <div className="Ext-link">
+                    </div>
+                    <div className="Ext-link">
                         <ExternalLink href="https://www.linkedin.com/in/arafat-o-olayiwola-b52087191/">
                                 <ImLinkedin />
                         </ExternalLink>
@@ -44,8 +43,7 @@ const Navbar = () => {
                             <SiLeetcode />
                         </ExternalLink>
                     </div>
-                
-               </div>
+                </div>
            </nav>
        </div>
     )

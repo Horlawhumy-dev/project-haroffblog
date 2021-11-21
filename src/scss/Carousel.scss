@@ -29,3 +29,12 @@
        @include transform-hover;
     }
 }
+
+
+@media screen and (max-width:768px){
+    .Carousel-div{
+        width: 100%;
+        background-color: aqua;
+        padding: 1rem 0  0;
+    }
+}

@@ -1,15 +1,22 @@
 import React from 'react';
 
+
 import Navbar from '../navigation/Navbar';
+import Category from '../category/Category';
+import Contact from './Contact';
+import Footer from '../footer/Footer';
+import '../../scss/Contactpage.scss';
 
 const ContactPage = () => {
     return (
         <>
-             <Navbar />
-            <div className="Contact-div">
-               
-                <h1>Contact Page</h1>
+            <Navbar />
+            <div className="Contactpage">
+                <Contact />
+                <Category />
             </div>
+            <Footer />
+             
         </>
     );
 };

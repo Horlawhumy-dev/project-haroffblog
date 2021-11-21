@@ -1,11 +1,11 @@
 .Category-div {
-  width: 40%;
+  width: 30%;
   padding: 1rem 2rem;
 }
 .Category-div h1 {
   color: #002538;
   text-align: center;
-  margin: 0 auto 1rem auto;
+  margin: -1rem auto 1rem auto;
 }
 .Category-div .topics-div {
   display: flex;

@@ -10,7 +10,7 @@
 
     .footer-div1{
         width: 50%;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .footer-div2{
@@ -48,5 +48,33 @@
             transition: 1ms ease-in-out;
            }
        }
+    }
+}
+
+/*--------- medai query ---------*/
+
+@media  screen and (max-width:768px) {
+    .Footer-div{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .footer-div1{
+            display: flex;
+            width: 90%;
+            padding: .5em 0;
+            justify-content: space-around;
+            // h4{
+            //     margin: 0 .rem 
+            // }
+            margin-right: 1rem;
+        }
+
+        .footer-div2{
+            // s
+            width: 90%;
+            text-align: center;
+            margin: 0;
+        }
     }
 }
