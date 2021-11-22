@@ -86,14 +86,16 @@
     margin: 0 4rem;
   }
   .Article-div .showcase-div .article-image {
-    width: 40%;
-    background-color: aqua;
+    width: 30%;
   }
   .Article-div .showcase-div .article-image img {
     width: 250px;
     height: 250px;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  .Article-div .showcase-div .article-intro-div {
+    margin-left: -4rem;
   }
 }
 @media all and (max-width: 500px) {

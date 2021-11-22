@@ -117,14 +117,17 @@
 
         .showcase-div{
                 .article-image{
-                    width: 40%;
-                    background-color: aqua;
+                    width: 30%;
+                    
                     img{
                         width:250px;
-                      
                         height:250px;
                         object-fit:cover;
                     }
+                }
+
+                .article-intro-div{
+                    margin-left: -4rem;
                 }
         }
         

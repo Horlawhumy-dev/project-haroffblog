@@ -16,7 +16,7 @@
   font-size: xx-large;
 }
 .Nav .Nav-logo .nav-link h4:hover {
-  transform: scaleY(1.1) scaleX(1.1);
+  transform: scaleY(1.1) scaleX(1.2);
   transition: 5ms ease-in-out;
   color: #00aaff;
 }
@@ -41,7 +41,7 @@
   color: #fff;
 }
 .Nav .Nav-right .Ext-link:hover {
-  transform: scaleY(1.1) scaleX(1.1);
+  transform: scaleY(1.1) scaleX(1.2);
   transition: 5ms ease-in-out;
   color: #00aaff;
 }/*# sourceMappingURL=Nav.css.map */
