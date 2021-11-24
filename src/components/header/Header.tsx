@@ -2,6 +2,7 @@ import React from 'react';
 import { FiSearch } from 'react-icons/fi';
 
 import Aux from '../../hoc/Auxiliary';
+import '../../scss/Home.scss';
 const Header = () => {
     return (
         <Aux>

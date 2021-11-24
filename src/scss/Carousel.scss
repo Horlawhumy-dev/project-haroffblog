@@ -3,12 +3,12 @@
 
 
 .Carousel-div{
-    // background-color: aqua;
     width: 30%;
     display: flex;
     justify-content: space-evenly;
     padding: 1rem 2rem;
     text-align: center;
+    margin: 0 auto;
 
     .carousel-nav-div{
         background-color: $header-footer;
@@ -34,7 +34,6 @@
 @media screen and (max-width:768px){
     .Carousel-div{
         width: 100%;
-        background-color: aqua;
         padding: 1rem 0  0;
     }
 }

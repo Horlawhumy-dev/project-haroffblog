@@ -26,7 +26,7 @@ const Contact = () => {
                         <h4>-</h4>
                     </span>
                     <span>
-                        <h4>10 mins read</h4>
+                        <h4>10 mins reading</h4>
                     </span>
                 </div>
                 <div className="contact-body">
@@ -38,7 +38,37 @@ const Contact = () => {
                             
                     </p><br /><br />
 
-                    <div className="contact-form">
+                  
+
+                    <p className="last-paragraph">
+                        <ExternalLink className="profile-link" href="https://web.facebook.com/profile.php?id=100009514147951">
+                            <BsFacebook /> Facebook
+                        </ExternalLink>
+                        
+                    </p><br /><br />
+                    <p className="last-paragraph">
+                        <ExternalLink className="profile-link" href="https://www.instagram.com/haroffcode/">
+                            <AiFillInstagram />Instagram 
+                        </ExternalLink>
+                        
+                    </p><br /><br />
+                    <p className="last-paragraph">
+                        <ExternalLink className="profile-link" href="https://www.linkedin.com/in/arafat-o-olayiwola-b52087191/">
+                            <ImLinkedin /> LinkedIn 
+                        </ExternalLink>
+                        
+                    </p><br /><br />
+                    <p className="last-paragraph">
+                        <ExternalLink className="profile-link" href="https://twitter.com/HAROF97">
+                            <AiFillTwitterCircle /> Twitter 
+                        </ExternalLink>
+                        
+                    </p>
+
+                </div>
+
+
+                <div className="contact-form">
                         <h2>Let's Hear From You</h2>
                         <form action="#">
                             <div className="name-input">
@@ -50,42 +80,10 @@ const Contact = () => {
                             <div className="email-input">
                                 <input type="email"  placeholder='Your correspondent mail here'autoComplete='no'/>
                             </div>
-                            <textarea placeholder="Your message goes here ..." cols={60} rows={20} autoComplete='no'></textarea>
+                            <textarea placeholder="Your message goes here ..." cols={90} rows={20} autoComplete='no'></textarea>
                             <button type='submit'>Send Message</button>
                         </form>
                     </div>
-
-                    <p className="last-paragraph">
-                        <ExternalLink className="profile-link" href="https://web.facebook.com/profile.php?id=100009514147951">
-                            <BsFacebook />
-                        </ExternalLink>
-                        Facebook Profile
-                    </p><br /><br />
-                    <p className="last-paragraph">
-                        <ExternalLink className="profile-link" href="https://www.instagram.com/haroffcode/">
-                            <AiFillInstagram />
-                        </ExternalLink>
-                        Instagram Profile
-                    </p><br /><br />
-                    <p className="last-paragraph">
-                        <ExternalLink className="profile-link" href="https://www.linkedin.com/in/arafat-o-olayiwola-b52087191/">
-                            <ImLinkedin />
-                        </ExternalLink>
-                        LinkedIn Profile
-                    </p><br /><br />
-                    <p className="last-paragraph">
-                        <ExternalLink className="profile-link" href="https://twitter.com/HAROF97">
-                            <AiFillTwitterCircle />
-                        </ExternalLink>
-                        Twitter Profile
-                    </p>
-                    
-                    {/* <p className="last-paragraph">
-                        <ExternalLink href="https://web.facebook.com/profile.php?id=100009514147951">
-                            <BsFacebook />
-                        </ExternalLink>
-                    </p> */}
-                </div>
             </div>
         </>
     );

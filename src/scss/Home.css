@@ -1,61 +1,165 @@
 .App-header .Center-header {
   width: 100%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
+.App-header .Center-header .welcome-div {
+  padding: 1rem 0;
+  width: 100%;
+}
+
 .App-header .Center-header .welcome-div h1 {
   width: 100%;
   margin: 0 auto;
   text-transform: uppercase;
   font-size: 8rem;
-  margin: 0 0 0.5rem 0;
+  text-align: center;
+  color: #00aaff;
 }
+
 .App-header .Center-header .welcome-div h3 {
-  width: 80%;
-  margin: 0 auto;
-  padding: 0 3em;
-  font-size: 2rem;
-  margin: 0 0 0.5rem 0;
-}
-.App-header .Center-header .form-div {
-  margin-top: 1.5em;
-  padding: 1em 0;
-  width: 75%;
-}
-.App-header .Center-header .form-div form {
   width: 100%;
-  padding: 1em 2em;
+  margin: 0 auto;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 2rem;
 }
+
+.App-header .Center-header .form-div {
+  margin-top: 1.5rem;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.App-header .Center-header .form-div form {
+  width: 75%;
+  padding: 1rem 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
 .App-header .Center-header .form-div form input {
-  padding: 2em 0;
+  padding: 1.3rem 0;
   border: none;
   font-size: large;
   width: 80%;
-  border-radius: 0.5em;
+  border-radius: .5rem;
   text-align: center;
   outline: none;
 }
+
 .App-header .Center-header .form-div form input:focus {
   border: none;
 }
+
 .App-header .Center-header .form-div form button {
-  padding: 2.5em 0;
+  padding: 1.2rem 0;
   border: none;
   width: 10%;
-  border-radius: 0.5em;
+  border-radius: .5em;
+  margin-left: 1rem;
   cursor: pointer;
 }
+
 .App-header .Center-header .form-div form button .search-icon {
-  font-size: large;
+  font-size: x-large;
 }
+
 .App-header .Center-header .form-div form button:active {
-  transform: scaleY(1.05);
+  -webkit-transform: scaleY(1.05);
+          transform: scaleY(1.05);
+  -webkit-transition: cubic-bezier(0.215, 0.61, 0.355, 0);
   transition: cubic-bezier(0.215, 0.61, 0.355, 0);
 }
+
 .App-header .Center-header .form-div form button:focus {
   background-color: #00aaff;
   color: #fff;
-}/*# sourceMappingURL=Home.css.map */
+}
+
+@media all and (max-width: 1250px) and (min-width: 769px) {
+  .App-header .Center-header .welcome-div h1 {
+    font-size: 6rem;
+  }
+  .App-header .Center-header .welcome-div h3 {
+    font-size: 1.5rem;
+    margin: 0 0 .5rem 0;
+    margin-top: 1rem;
+  }
+}
+
+@media all and (max-width: 768px) and (min-width: 516px) {
+  .App-header .Center-header .welcome-div h1 {
+    font-size: 4.5rem;
+  }
+  .App-header .Center-header .welcome-div h3 {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: 1rem;
+  }
+  .App-header .Center-header .form-div form {
+    width: 80%;
+  }
+  .App-header .Center-header .form-div form button {
+    width: 15%;
+    margin-left: .5rem;
+  }
+}
+
+@media all and (max-width: 515px) {
+  .App-header .Center-header {
+    margin-top: -4rem;
+  }
+  .App-header .Center-header .welcome-div h1 {
+    font-size: 3rem;
+  }
+  .App-header .Center-header .welcome-div h3 {
+    font-size: .9rem;
+    margin: 0;
+    margin-top: 1rem;
+  }
+  .App-header .Center-header .form-div form {
+    width: 100%;
+  }
+  .App-header .Center-header .form-div form input {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .App-header .Center-header .form-div form button {
+    background-color: #00aaff;
+    padding: 1rem 4rem;
+    margin-left: .5rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+  }
+  .App-header .Center-header .form-div form button .search-icon {
+    text-align: center;
+    margin-left: -1rem;
+    color: #fff;
+  }
+  .App-header .Center-header .form-div form button:hover {
+    -webkit-transform: scaleY(1.1) scaleX(1.2);
+            transform: scaleY(1.1) scaleX(1.2);
+    -webkit-transition: 5ms ease-in-out;
+    transition: 5ms ease-in-out;
+    color: #00aaff;
+  }
+  .App-header .Center-header .form-div form button:active {
+    background-color: #002538;
+  }
+}
+/*# sourceMappingURL=Home.css.map */

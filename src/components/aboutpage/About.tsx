@@ -47,7 +47,6 @@ const About = () => {
                     </p><br /><br />
                     <h2>About The Writer</h2><br /><br />
                     <div className="about-writer">
-                        
                         <img src="https://jhooq.com/wp-content/uploads/2020/06/Kubernetes_cropped-logo.webp?ezimgfmt=rs:186x176/rscb90/ng:webp/ngcb90" alt="Picture of the writer!" />
                         <p>
                             <strong>

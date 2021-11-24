@@ -1,4 +1,6 @@
 @import '../scss/Config.scss';
+@import '../scss/Utils.scss';
+
 .About-div{
     width: 60%;
    .about-div1{
@@ -13,6 +15,10 @@
     }
 
     .about-body{
+        h2{
+            width: 100%;
+            text-align: center;
+        }
         .last-paragraph{
             background-color: $header-footer;
             border-left: 5px solid $hover-color;
@@ -31,10 +37,56 @@
             p{
                 margin-top: 1rem;
                 margin-left: 1.5rem;
+                padding: 1rem;
+                width: 100%;
                 .writer-linkedin{
                     color: $header-footer;
                 }
             }
         }
     }
+}
+
+@media all and (max-width: 768px){
+    .About-div{
+        width: 90%;
+        margin: 2rem auto;
+
+        .about-body{
+            .last-paragraph{
+                width: 85%;
+            }
+            .about-writer{
+                flex-direction: column;
+                
+                img{
+                    margin: 0 auto;
+                }
+                p{
+                    width: 85%;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 1200px) and (min-width:769px){
+    .About-div{
+        width: 75%;
+        margin: 2rem auto;
+
+           .about-body{
+            .about-writer{
+                flex-direction: column;
+
+                img{
+                    margin: 0 auto;
+                }
+                p{
+                    width: 75%;
+                }
+            }
+        // }
+    }
+}
 }

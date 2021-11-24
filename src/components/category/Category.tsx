@@ -11,6 +11,26 @@ const Category = () => {
                     <h4>Google Cloud</h4>
                     <span>12</span>
                 </Link>
+                <Link className="topics-category" to="#">
+                    <h4>Google Cloud</h4>
+                    {/* <span>12</span> */}
+                </Link>
+                <Link className="topics-category" to="#">
+                    <h4>Google Cloud</h4>
+                    {/* <span>12</span> */}
+                </Link>
+                <Link className="topics-category" to="#">
+                    <h4>Google Cloud</h4>
+                    {/* <span>12</span> */}
+                </Link>
+                <Link className="topics-category" to="#">
+                    <h4>Google Cloud</h4>
+                    {/* <span>12</span> */}
+                </Link>
+                <Link className="topics-category" to="#">
+                    <h4>Google Cloud</h4>
+                    {/* <span>12</span> */}
+                </Link>
             </div>
            
         </div>

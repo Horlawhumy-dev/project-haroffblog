@@ -3,9 +3,9 @@
 
 
 .Category-div{
-    // background-color: blue;
-    width: 30%;
+    width: 40%;
     padding: 1rem 2rem;
+    margin:0 auto;
 
     h1{
         color: $header-footer;
@@ -14,8 +14,11 @@
     }
 
     .topics-div{
-        display: flex;
-
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-gap: 10px;
+        padding: 10px 0;
+        // background-color: blue;
         .topics-category{
             display: flex;
             justify-content: space-between;
@@ -29,7 +32,7 @@
                 // line-break: auto;
                 text-align: center;
                 color: $base-color;
-                text-transform: uppercase;
+                text-transform: capitalize;
             }
             span{
                 margin: 0 .5rem;
@@ -37,6 +40,9 @@
                 background-color: $base-color;
                 padding: .1rem;
                 border-radius: 50%;
+                color: $hover-color;
+                font-size:small;
+                text-align: center;
             }
         }
 
@@ -47,4 +53,41 @@
     }
 
     
+}
+
+@media all and (max-width:1200px) and (min-width:650px){
+    .Category-div{
+        width: 80%;
+        .topics-div{
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            grid-gap: 20px;
+        }
+    }
+}
+
+
+@media all and (max-width: 649px) and (min-width: 501px){
+    .Category-div{
+        width: 80%;
+
+        .topics-div{
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            grid-gap: 20px;
+        }
+    }
+}
+
+
+@media all and (max-width: 500px){
+    .Category-div{
+        width: 80%;
+
+        .topics-div{
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            grid-gap: 20px;
+        }
+    }
 }

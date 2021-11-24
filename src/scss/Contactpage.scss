@@ -6,3 +6,31 @@
     justify-content: space-between;
     padding: 2rem 3rem;
 }
+
+
+.Contactpage{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+}
+
+@media screen and (max-width:768px){
+    .Contactpage{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:769px){
+    .Contactpage{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media all and (max-width:500px){
+    .Contactpage{
+        padding: 0;
+    }
+}
