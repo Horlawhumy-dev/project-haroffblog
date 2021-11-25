@@ -1,0 +1,20 @@
+
+
+.ArticlePage{
+    width: 65%;
+    margin: 4rem auto;
+    .article-header{
+        width: 100%;
+
+        h1{
+            margin: 1rem 0;
+        }
+        .date-div{
+            margin-bottom: 1.5em;
+            display: flex;
+            span{
+                margin: 0 .5em;
+            }
+        }
+    }
+}

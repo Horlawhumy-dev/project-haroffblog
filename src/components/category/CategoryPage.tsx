@@ -1,9 +1,18 @@
 import React from 'react';
 
+import Navbar from '../navigation/Navbar';
+import Section from '../body/Section';
+import Footer from '../footer/Footer';
+import '../../scss/CategoryPage.scss';
+
 const CategoryPage = () => {
     return (
         <>
-            <div>Category Page goes here.</div>
+            <Navbar />
+            <div className="CategoryPage">
+                <Section />
+            </div>
+            <Footer />
         </>
     );
 };

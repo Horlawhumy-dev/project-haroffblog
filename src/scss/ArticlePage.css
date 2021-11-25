@@ -1,0 +1,17 @@
+.ArticlePage {
+  width: 65%;
+  margin: 4rem auto;
+}
+.ArticlePage .article-header {
+  width: 100%;
+}
+.ArticlePage .article-header h1 {
+  margin: 1rem 0;
+}
+.ArticlePage .article-header .date-div {
+  margin-bottom: 1.5em;
+  display: flex;
+}
+.ArticlePage .article-header .date-div span {
+  margin: 0 0.5em;
+}/*# sourceMappingURL=ArticlePage.css.map */
