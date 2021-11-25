@@ -1,28 +1,21 @@
 .Contact-div {
   width: 65%;
 }
-
 .Contact-div .contact-div1 {
   margin-bottom: 1rem;
 }
-
 .Contact-div .date-div {
   margin-bottom: 1.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .Contact-div .date-div span {
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
 }
-
 .Contact-div .contact-body p:first-child {
   width: 100%;
   margin: 0 auto;
   margin-left: 0;
 }
-
 .Contact-div .contact-body .last-paragraph {
   width: 80%;
   background-color: #002538;
@@ -32,33 +25,25 @@
   font-size: larger;
   margin-bottom: 2rem;
 }
-
 .Contact-div .contact-body .last-paragraph .profile-link {
   margin-right: 2rem;
   font-size: xx-large;
 }
-
 .Contact-div .contact-body .last-paragraph .profile-link:hover {
-  -webkit-transform: scaleY(1.1) scaleX(1.2);
-          transform: scaleY(1.1) scaleX(1.2);
-  -webkit-transition: 5ms ease-in-out;
+  transform: scaleY(1.1) scaleX(1.2);
   transition: 5ms ease-in-out;
   color: #00aaff;
 }
-
 .Contact-div .contact-form {
   width: 80%;
   margin: 2rem 0;
 }
-
 .Contact-div .contact-form h2 {
   text-align: center;
 }
-
 .Contact-div .contact-form form {
   width: 100%;
 }
-
 .Contact-div .contact-form form input {
   width: 100%;
   margin: 1rem 0;
@@ -67,17 +52,15 @@
   border: 2px solid #00aaff;
   font-size: larger;
 }
-
 .Contact-div .contact-form form textarea {
-  -webkit-columns: 30;
-          columns: 30;
+  -moz-columns: 30;
+       columns: 30;
   outline: none;
   border: 2px solid #00aaff;
   max-width: 100%;
   padding: 1rem;
   font-size: larger;
 }
-
 .Contact-div .contact-form form button {
   display: block;
   margin: 1rem auto;
@@ -85,15 +68,12 @@
   border: 2px solid #00aaff;
   cursor: pointer;
 }
-
 .Contact-div .contact-form form button:hover {
   background-color: #002538;
   color: #fff;
   border: none;
-  -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-
 .Contact-div .contact-form form button:focus {
   background-color: #002538;
   color: #fff;
@@ -118,7 +98,6 @@
     width: 90%;
   }
 }
-
 @media all and (max-width: 1250px) and (min-width: 516px) {
   .Contact-div {
     width: 80%;
@@ -127,5 +106,4 @@
   .Contact-div .contact-body .last-paragraph {
     width: 80%;
   }
-}
-/*# sourceMappingURL=Contact.css.map */
+}/*# sourceMappingURL=Contact.css.map */

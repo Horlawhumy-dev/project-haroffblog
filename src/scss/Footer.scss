@@ -111,6 +111,9 @@
        }
    }
 }
+
+
+
 @media  screen and (max-width:500px) {
     .Footer-div{
         display: flex;
@@ -133,12 +136,12 @@
                 width: 90%;
                 margin: 0 auto;
                 form{
-                    width: 90%;
+                    width: 100%;
                     margin: 0 0 1rem 1rem;
                    input{
                        display: block;
                        width: 90%;
-                       height: 7vh;
+                       height: 6vh;
                    }
 
                    button{

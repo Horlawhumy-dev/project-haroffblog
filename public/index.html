@@ -18,9 +18,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,200;1,300&display=swap" rel="stylesheet">
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="/path/to/styles/default.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/styles/default.min.css">
+    <link rel="stylesheet" href="node_modules\highlight.js\styles\atom-one-dark-reasonable.css">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-
-    <title>Welcome to HaroffBlog</title>
+    
+    <title>Welcome to Haroff Blog</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -35,5 +38,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="/path/to/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.3.1/highlight.min.js"></script>
   </body>
 </html>

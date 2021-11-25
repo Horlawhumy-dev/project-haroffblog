@@ -15,17 +15,19 @@
 
     .topics-div{
         display: grid;
-        grid-template-columns: repeat(2,auto);
-        grid-gap: 10px;
+        grid-template-columns: repeat(2,200px);
+       
+        grid-gap: 5px;
         padding: 10px 0;
         // background-color: blue;
         .topics-category{
             display: flex;
-            justify-content: space-between;
-            margin: 0 1rem;
-            border-radius: .5rem;
+            justify-content: center;
+            margin: 0 .3rem;
+            border-radius: 1.5rem;
             background-color: $header-footer;
-            padding: .3rem 1rem;
+            padding: .3rem;
+            // width: 30%;
             
     
             h4{
@@ -39,7 +41,7 @@
                 text-align: center;
                 background-color: $base-color;
                 padding: .1rem;
-                border-radius: 50%;
+                border-radius: 1rem;
                 color: $hover-color;
                 font-size:small;
                 text-align: center;
@@ -60,8 +62,8 @@
         width: 80%;
         .topics-div{
             display: grid;
-            grid-template-columns: repeat(4, auto);
-            grid-gap: 20px;
+            grid-template-columns: repeat(3, auto);
+            grid-gap: 10px;
         }
     }
 }
@@ -73,8 +75,8 @@
 
         .topics-div{
             display: grid;
-            grid-template-columns: repeat(3, auto);
-            grid-gap: 20px;
+            grid-template-columns: repeat(2, auto);
+            grid-gap: 10px;
         }
     }
 }
@@ -83,11 +85,21 @@
 @media all and (max-width: 500px){
     .Category-div{
         width: 80%;
-
+        padding-left: 0;
+        h1{
+            width: 100%;
+            text-align:center;
+        }
         .topics-div{
             display: grid;
-            grid-template-columns: repeat(2, auto);
-            grid-gap: 20px;
+            grid-template-columns: repeat(1, auto);
+            grid-gap: 10px;
+            width: 100%;
+            .topics-category{
+                width: 60%;
+                margin: 0 auto;
+                padding: .5rem;
+            }
         }
     }
 }

@@ -145,14 +145,14 @@
 @media all and (max-width: 515px){
     .App-header{
         .Center-header{
-            margin-top: -4rem;
+            // margin-top: -2rem;
             .welcome-div{
                 h1{
-                    font-size: 3rem;
+                    font-size: 2.5rem;
 
                 }
                 h3{
-                    font-size:.9rem; 
+                    font-size:.75rem; 
                     margin: 0;
                     margin-top: 1rem;
                 }
@@ -170,10 +170,10 @@
                     }
                     button{
                         background-color: $hover-color;
-                        padding: 1rem 4rem;
+                        padding: .5rem 4rem;
                         margin-left: .5rem;
                         margin-top: 1rem;
-                        border-radius: 1rem;
+                        border-radius: 1.5rem;
                         .search-icon{
                             text-align: center;
                             margin-left: -1rem;

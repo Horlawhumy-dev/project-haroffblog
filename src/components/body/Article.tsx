@@ -39,7 +39,7 @@ const Article = () => {
                             </p>
                         </div>
                         <div className="readmore-div">
-                            <Link className="readmore-link" to="#">Read More</Link>
+                            <Link className="readmore-link" to="/article/title">Read More</Link>
                         </div>
                     </div>
 
@@ -77,7 +77,7 @@ const Article = () => {
                             </p>
                         </div>
                         <div className="readmore-div">
-                            <Link className="readmore-link" to="#">Read More</Link>
+                            <Link className="readmore-link" to="/article/title">Read More</Link>
                         </div>
                     </div>
 
