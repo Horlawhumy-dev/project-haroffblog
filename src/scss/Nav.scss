@@ -3,54 +3,136 @@
 
 .Outer-div {
     background-color: $header-footer;
-    color: $base-color;
-}
-.Nav{
-    width: 85%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 1em;
+    color: $base-color; 
+    .Nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 1rem;
+        .Nav-links{
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 1em;
+            width: 60%;
+        }
+        .Nav-logo{
+            margin: .5rem 1rem;
+            color: $base-color;
+            font-size: xx-large;
+            width: 30%;
+            .nav-link:hover{
+            @include transform-hover;
+            }
+        }
 
-    .Nav-logo{
-        margin: 0 1em;
-        color: $base-color;
-        font-size: xx-large;
+        .Nav-center {
+            ul{
+                display: flex;
+                li {
+                    margin: 0 1em;
+                    list-style: none;
+                    color: $base-color;
+                    font-size: x-large;
 
-        .nav-link h4:hover{
-           @include transform-hover;
+                    .nav-link:hover{
+                        color: $hover-color;
+                    }
+                }
+
+                
+            }
+            
+        }
+
+        .Nav-right {
+            display: flex;
+            .Ext-link{
+                margin: 0 1em;
+                font-size: x-large;
+                color: $hover-color;
+            }
+
+            .Ext-link:hover{
+                @include transform-hover;
+            }
+        }
+
+
+        .hamburger{
+            margin: 1rem 3rem;
+            display: none;
+            :hover{
+                @include transform-hover;
+            }
+            .toggle{
+                font-size: xx-large;
+                cursor: pointer;
+            }
         }
     }
+}
 
-    .Nav-center {
-        ul{
-            display: flex;
-            li {
-                margin: 0 1em;
-                list-style: none;
-                color: $base-color;
-                font-size: x-large;
 
-                .nav-link:hover{
-                    color: $hover-color;
+
+@media screen and (max-width:768px) {
+    .Outer-div{
+        .Nav{
+            .Nav-links{
+                display: none;
+                // position: absolute;
+                // top: 0;
+                // left: 20%;
+                // background-color: $hover-color;
+                // right: 0;
+                // height: 100vh;
+                // width: 90%;
+                // z-index: 100;
+                // display: flex;
+                // flex-direction: column;
+
+                .Nav-center{
+                    ul{
+                        display: flex;
+                        align-items: flex-start;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        li{
+                            margin: 2rem;
+                            color: $hover-color;
+
+                            .nav-link:hover{
+                                color: $header-footer;
+                            }
+                        }
+                    }
+                }
+
+                .Nav-right{
+                    margin-bottom: 4rem;
+                    text-align: center;
+                    margin-left: 1rem;
+                    padding: 0;
                 }
             }
 
-            
+           
+            .hamburger{
+                display: block;
+                margin: 1rem;
+            }
         }
-        
     }
-
-    .Nav-right {
-        display: flex;
-        .Ext-link{
-            margin: 0 1em;
-            font-size: x-large;
-            color: $hover-color;
-        }
-
-        .Ext-link:hover{
-            @include transform-hover;
+}
+@media screen and (min-width:900px) and (max-width:900px){
+    .Outer-div{
+        .Nav{
+            .Nav-links{
+                .Nav-right{
+                    display: none;
+                }
+            }
         }
     }
 }
