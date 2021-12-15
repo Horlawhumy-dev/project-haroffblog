@@ -21,7 +21,7 @@ const Article = () => {
                     <span>
                         <h4>-</h4>
                     </span>
-                    <span>
+                    <span className="last-span">
                         <h4>10 mins read</h4>
                     </span>
                 </div>

@@ -38,21 +38,11 @@ const Navbar = () => {
                     </div>
                     <div className="Nav-right">
                         
-                            <div className="Ext-link">
-                                <ExternalLink href="https://www.linkedin.com/in/arafat-o-olayiwola-b52087191/">
-                                        <ImLinkedin />
-                                </ExternalLink>
-                            </div>
-                            <div className="Ext-link">
-                                <ExternalLink href="https://www.twitter.com/harof97">
-                                        <FaTwitterSquare />
-                                </ExternalLink>
-                            </div>
-                            <div className="Ext-link">
-                                <ExternalLink href="https://web.facebook.com/profile.php?id=100009514147951">
-                                        <FaFacebookSquare />
-                                </ExternalLink>
-                            </div>
+                        <div className="Ext-link">
+                            <ExternalLink href="https://www.linkedin.com/in/arafat-o-olayiwola-b52087191/">
+                                    <ImLinkedin />
+                            </ExternalLink>
+                        </div>
 
                         <div className="Ext-link">
                                 <ExternalLink href="https://github.com/Horlawhumy-dev">

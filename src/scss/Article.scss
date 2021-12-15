@@ -27,6 +27,8 @@
             span{
                 margin: 0 .5em;
             }
+
+          
         }
 
         .showcase-div{
@@ -157,4 +159,22 @@
             }
         }
     }
+}
+
+
+@media screen and (max-width:500px){
+    .article-container{
+        .topic-div{
+            .date-div{
+                span{
+                    font-size: small;
+                    color: red;
+                }
+                .last-span{
+                    display: block;
+                }
+            }
+        }
+    }
+    
 }

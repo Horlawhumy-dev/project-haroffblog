@@ -4,23 +4,24 @@
 .Outer-div {
     background-color: $header-footer;
     color: $base-color; 
+    width: 100%;
     .Nav{
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         padding-top: 1rem;
         .Nav-links{
             margin: 0 auto;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-evenly;
             padding: 1em;
-            width: 60%;
+            width: 75%;
         }
         .Nav-logo{
-            margin: .5rem 1rem;
+            margin: .5rem 0;
             color: $base-color;
             font-size: xx-large;
-            width: 30%;
+            width: 15%;
             .nav-link:hover{
             @include transform-hover;
             }
@@ -60,7 +61,7 @@
 
 
         .hamburger{
-            margin: 1rem 3rem;
+            // margin: 1rem;
             display: none;
             :hover{
                 @include transform-hover;
@@ -78,6 +79,8 @@
 @media screen and (max-width:768px) {
     .Outer-div{
         .Nav{
+            display: flex;
+            justify-content: space-around;
             .Nav-links{
                 display: none;
                 // position: absolute;
@@ -125,17 +128,17 @@
         }
     }
 }
-@media screen and (min-width:900px) and (max-width:900px){
-    .Outer-div{
-        .Nav{
-            .Nav-links{
-                .Nav-right{
-                    display: none;
-                }
-            }
-        }
-    }
-}
+// @media screen and (min-width:900px) and (max-width:900px){
+//     .Outer-div{
+//         .Nav{
+//             .Nav-links{
+//                 .Nav-right{
+//                     display: none;
+//                 }
+//             }
+//         }
+//     }
+// }
 
 
 

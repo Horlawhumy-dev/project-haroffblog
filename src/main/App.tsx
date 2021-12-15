@@ -25,11 +25,11 @@ function App() {
       <Loader />
     ) : (
     <Routes>
-      <Route path="/" element={<HomePage />}></Route>
-      <Route path="/about" element={<AboutPage />}></Route>
-      <Route path="/contact" element={<ContactPage />}></Route>
-      <Route path="/article/title" element={<ArticlePage />}></Route>
-      <Route path="/category/title" element={<CategoryPage />}></Route>
+      <Route  path="/" element={<HomePage />}/>
+      <Route  path="/about" element={<AboutPage />}/>
+      <Route  path="/contact" element={<ContactPage />}/>
+      <Route  path="/article/title" element={<ArticlePage />}/>
+      <Route  path="/category/title" element={<CategoryPage />}/>
     </Routes>
     )}</div>
   );

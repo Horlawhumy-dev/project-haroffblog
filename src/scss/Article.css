@@ -112,4 +112,13 @@
   .Article-div .article-container .showcase-div .article-intro-div .readmore-div {
     width: 30%;
   }
+}
+@media screen and (max-width: 500px) {
+  .article-container .topic-div .date-div span {
+    font-size: small;
+    color: red;
+  }
+  .article-container .topic-div .date-div .last-span {
+    display: block;
+  }
 }/*# sourceMappingURL=Article.css.map */
