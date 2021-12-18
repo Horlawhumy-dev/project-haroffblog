@@ -1,17 +1,73 @@
 .ArticlePage {
-  width: 65%;
+  width: 80%;
   margin: 4rem auto;
+}
+.ArticlePage .hero {
+  width: 100%;
+  height: auto;
+}
+.ArticlePage .hero img {
+  width: 100%;
+  height: auto;
 }
 .ArticlePage .article-header {
   width: 100%;
 }
 .ArticlePage .article-header h1 {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
+  color: #002538;
+  margin-left: 0;
+  display: flex;
+  justify-content: flex-start;
+  text-transform: auto;
+  text-align: start;
 }
 .ArticlePage .article-header .date-div {
   margin-bottom: 1.5em;
   display: flex;
+  justify-content: flex-start;
+  width: 100%;
 }
-.ArticlePage .article-header .date-div span {
-  margin: 0 0.5em;
+.ArticlePage .article-header .date-div div {
+  display: flex;
+}
+.ArticlePage .article-header .date-div div span {
+  margin: 0 10px;
+}
+.ArticlePage .article-header .date-div div span .copy-link {
+  cursor: pointer;
+  color: #002538;
+  font-size: large;
+}
+.ArticlePage .article-header .date-div div span .copy-link :hover {
+  color: #00aaff;
+}
+.ArticlePage .article-body {
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+  width: 100%;
+}
+.ArticlePage .article-body p {
+  line-height: 1.8;
+  width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .ArticlePage {
+    width: 90%;
+  }
+  .ArticlePage .date-div {
+    flex-direction: rom;
+  }
+  .ArticlePage .date-div div span {
+    margin: 0 5px;
+    font-size: x-small;
+  }
+  .ArticlePage .date-div div span .copy-link {
+    font-size: x-small;
+  }
+  .ArticlePage .article-header h1 {
+    font-size: small;
+  }
 }/*# sourceMappingURL=ArticlePage.css.map */

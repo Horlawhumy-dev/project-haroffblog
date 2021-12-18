@@ -10,15 +10,7 @@
         display: flex;
         justify-content: space-evenly;
         padding-top: 1rem;
-        .Nav-links{
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-evenly;
-            padding: 1em;
-            width: 75%;
-        }
         .Nav-logo{
-            margin: .5rem 0;
             color: $base-color;
             font-size: xx-large;
             width: 15%;
@@ -26,42 +18,49 @@
             @include transform-hover;
             }
         }
+        .Nav-links{
+            // margin: 0 auto;
+            margin-top: -10px;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 1em;
+            width: 80%;
+            .Nav-center {
+                ul{
+                    display: flex;
+                    li {
+                        margin: 0 1em;
+                        list-style: none;
+                        color: $base-color;
+                        font-size: x-large;
 
-        .Nav-center {
-            ul{
-                display: flex;
-                li {
-                    margin: 0 1em;
-                    list-style: none;
-                    color: $base-color;
-                    font-size: x-large;
-
-                    .nav-link:hover{
-                        color: $hover-color;
+                        .nav-link:hover{
+                            color: $hover-color;
+                        }
                     }
+
+                    
+                }
+                
+            } 
+
+            .Nav-right {
+                display: flex;
+                .Ext-link{
+                    margin: 0 1em;
+                    font-size: x-large;
+                    color: $hover-color;
                 }
 
-                
+                .Ext-link:hover{
+                    @include transform-hover;
+                }
             }
-            
+
         }
-
-        .Nav-right {
-            display: flex;
-            .Ext-link{
-                margin: 0 1em;
-                font-size: x-large;
-                color: $hover-color;
-            }
-
-            .Ext-link:hover{
-                @include transform-hover;
-            }
-        }
-
-
         .hamburger{
             // margin: 1rem;
+           
             display: none;
             :hover{
                 @include transform-hover;
@@ -69,6 +68,7 @@
             .toggle{
                 font-size: xx-large;
                 cursor: pointer;
+                margin-top:-1rem ;
             }
         }
     }
@@ -78,22 +78,15 @@
 
 @media screen and (max-width:768px) {
     .Outer-div{
+        width: 120%;
         .Nav{
             display: flex;
             justify-content: space-around;
+            
             .Nav-links{
                 display: none;
-                // position: absolute;
-                // top: 0;
-                // left: 20%;
-                // background-color: $hover-color;
-                // right: 0;
-                // height: 100vh;
-                // width: 90%;
-                // z-index: 100;
-                // display: flex;
-                // flex-direction: column;
-
+                transform: translateX(100%);
+                transition: transform 1.5s ease;
                 .Nav-center{
                     ul{
                         display: flex;
@@ -119,6 +112,38 @@
                     padding: 0;
                 }
             }
+
+            // .open{
+            //     position: absolute;
+            //     top: 0;
+            //     left: 20%;
+            //     background-color: $hover-color;
+            //     right: 0;
+            //     height: 100vh;
+            //     width: 90%;
+            //     z-index: 100;
+            //     display: flex;
+            //     flex-direction: column;
+            //     transform: translateX(0%);
+            //     transition: transform 1.5s ease;
+            //     .close-btn{
+            //         display: block;
+                   
+            //         margin-right: -4rem;
+
+            //         .hamburger-close{
+            //             font-size: xx-large;
+            //             color: $base-color;
+            //         }
+            
+            //     }   
+            // }
+
+            // .close{
+            //     transform: translateX(-100%);
+            //     transition: transform 1.5s ease;
+
+            // }
 
            
             .hamburger{

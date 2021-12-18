@@ -9,15 +9,7 @@
   justify-content: space-evenly;
   padding-top: 1rem;
 }
-.Outer-div .Nav .Nav-links {
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 1em;
-  width: 75%;
-}
 .Outer-div .Nav .Nav-logo {
-  margin: 0.5rem 0;
   color: #fff;
   font-size: xx-large;
   width: 15%;
@@ -27,27 +19,34 @@
   transition: 5ms ease-in-out;
   color: #00aaff;
 }
-.Outer-div .Nav .Nav-center ul {
+.Outer-div .Nav .Nav-links {
+  margin-top: -10px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1em;
+  width: 80%;
+}
+.Outer-div .Nav .Nav-links .Nav-center ul {
   display: flex;
 }
-.Outer-div .Nav .Nav-center ul li {
+.Outer-div .Nav .Nav-links .Nav-center ul li {
   margin: 0 1em;
   list-style: none;
   color: #fff;
   font-size: x-large;
 }
-.Outer-div .Nav .Nav-center ul li .nav-link:hover {
+.Outer-div .Nav .Nav-links .Nav-center ul li .nav-link:hover {
   color: #00aaff;
 }
-.Outer-div .Nav .Nav-right {
+.Outer-div .Nav .Nav-links .Nav-right {
   display: flex;
 }
-.Outer-div .Nav .Nav-right .Ext-link {
+.Outer-div .Nav .Nav-links .Nav-right .Ext-link {
   margin: 0 1em;
   font-size: x-large;
   color: #00aaff;
 }
-.Outer-div .Nav .Nav-right .Ext-link:hover {
+.Outer-div .Nav .Nav-links .Nav-right .Ext-link:hover {
   transform: scaleY(1.1) scaleX(1.2);
   transition: 5ms ease-in-out;
   color: #00aaff;
@@ -63,15 +62,21 @@
 .Outer-div .Nav .hamburger .toggle {
   font-size: xx-large;
   cursor: pointer;
+  margin-top: -1rem;
 }
 
 @media screen and (max-width: 768px) {
+  .Outer-div {
+    width: 120%;
+  }
   .Outer-div .Nav {
     display: flex;
     justify-content: space-around;
   }
   .Outer-div .Nav .Nav-links {
     display: none;
+    transform: translateX(100%);
+    transition: transform 1.5s ease;
   }
   .Outer-div .Nav .Nav-links .Nav-center ul {
     display: flex;

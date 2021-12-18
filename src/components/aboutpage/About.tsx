@@ -18,12 +18,12 @@ const About = () => {
                     <span>
                         <h4>Nov 20, 2021</h4>
                     </span>
-                    <span>
+                    {/* <span>
                         <h4>-</h4>
                     </span>
                     <span>
                         <h4>10 mins read</h4>
-                    </span>
+                    </span> */}
                 </div>
                 <div className="about-body">
                     <p>

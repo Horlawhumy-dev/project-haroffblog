@@ -11,14 +11,9 @@ const Footer = () => {
     return (
         <div className='Footer-div'>
             <div className="footer-1">
-                <div className="footer-div2">
-                        <h4>Subscribe Now</h4>
-                        <form action="#">
-                            <input type="text" placeholder='Subscribe your mail ...'/>
-                            <button type="submit">Submit</button>
-                        </form>
-                </div>
-                <div className="Nav-right">
+                <div className='footer-nav-top'>
+                    <h4>Social Links</h4>
+                    <div className="Nav-right">
                     
                     <div className="Ext-link">
                         <ExternalLink href="https://www.linkedin.com/in/arafat-o-olayiwola-b52087191/">
@@ -48,12 +43,19 @@ const Footer = () => {
                         </ExternalLink>
                     </div>
                 </div>
+                </div>
+                <div className="footer-div2">
+                        <h4>Subscribe Now</h4>
+                        <form action="#">
+                            <input type="text" placeholder='Subscribe your mail ...'/>
+                            <button type="submit">Submit</button>
+                        </form>
+                </div>
             </div>
            
             <div className="footer-2">
                 <div className="footer-div1">
-                    <h4>All rights reserved &copy; copyright haroffblog 2021. </h4>
-                    
+                    <h4>Copyright &copy; haroffblog 2021. All rights reserved.  </h4>
                 </div>
             </div>
         </div>

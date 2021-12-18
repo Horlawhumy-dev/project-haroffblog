@@ -19,6 +19,9 @@
                 0.3em 0.3em 1em rgba(0,0,0,0.3);
         .topic-div{
             margin-bottom: 1em;
+            h1{
+                color: $header-footer;
+            }
         }
 
         .date-div{

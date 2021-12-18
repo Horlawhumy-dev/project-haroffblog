@@ -11,7 +11,7 @@ import AboutPage from '../components/aboutpage/AboutPage';
 import ContactPage from '../components/contactpage/ContactPage';
 import ArticlePage from '../../src/components/body/ArticlePage'
 import CategoryPage from '../../src/components/category/CategoryPage';
-
+import NotFoundPage from '../pages/notFound';
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   useEffect(() => {
@@ -30,6 +30,7 @@ function App() {
       <Route  path="/contact" element={<ContactPage />}/>
       <Route  path="/article/title" element={<ArticlePage />}/>
       <Route  path="/category/title" element={<CategoryPage />}/>
+      <Route  path="/*" element={<NotFoundPage />}/>
     </Routes>
     )}</div>
   );
