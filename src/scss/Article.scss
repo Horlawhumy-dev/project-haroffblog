@@ -27,8 +27,10 @@
         .date-div{
             margin-bottom: 1.5em;
             display: flex;
+            
             span{
                 margin: 0 .5em;
+                font-size: small;
             }
 
           
@@ -50,12 +52,18 @@
             }
             .article-intro-div{
                 width: 70%;
+                .topic-div{
+                    h1{
+                        text-align: start;
+                    }
+                }
                 .intro-div{
-
                     p{
                         line-height:1.5;
                         color: black;
-                        // letter-spacing: 5px;
+                        margin-left: -.2rem;
+                        
+                        
                         
                     }
                 }
@@ -145,6 +153,12 @@
         .article-container{
             width: 80%;
             margin: 2rem auto;
+            .topic-div{
+                h1{
+                    font-size: large;
+                    text-align: start;
+                }
+            }
 
             .showcase-div{
                 .article-intro-div{
@@ -152,10 +166,11 @@
                     .intro-div{
                         p{
                             width: 100%;
+                            margin-left: -.2rem;
                         }
                     }
                     .readmore-div{
-                        width: 30%;
+                        width: 45%;
                     }
                 }
                 

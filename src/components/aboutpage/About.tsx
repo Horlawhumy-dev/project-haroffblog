@@ -1,7 +1,7 @@
 import React from 'react';
 import {BsFillCalendarCheckFill} from 'react-icons/bs';
 import {ExternalLink} from 'react-external-link';
-
+import arafat from '../../asssets/photo.jpg'
 import '../../scss/About.scss';
 
 const About = () => {
@@ -47,7 +47,7 @@ const About = () => {
                     </p><br /><br />
                     <h2>About The Writer</h2><br /><br />
                     <div className="about-writer">
-                        <img src="https://jhooq.com/wp-content/uploads/2020/06/Kubernetes_cropped-logo.webp?ezimgfmt=rs:186x176/rscb90/ng:webp/ngcb90" alt="Picture of the writer!" />
+                        <img src={arafat} alt="The writer's look!" />
                         <p>
                             <strong>
                                 <ExternalLink className="writer-linkedin" href="https://www.linkedin.com/in/arafat-o-olayiwola-b52087191/">

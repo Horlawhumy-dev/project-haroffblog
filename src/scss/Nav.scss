@@ -37,9 +37,13 @@
                         .nav-link:hover{
                             color: $hover-color;
                         }
-                    }
 
-                    
+                        
+                    }
+                }
+
+                .close-btn{
+                    display: none;
                 }
                 
             } 
@@ -47,7 +51,7 @@
             .Nav-right {
                 display: flex;
                 .Ext-link{
-                    margin: 0 1em;
+                    margin: 0 1rem;
                     font-size: x-large;
                     color: $hover-color;
                 }
@@ -60,7 +64,6 @@
         }
         .hamburger{
             // margin: 1rem;
-           
             display: none;
             :hover{
                 @include transform-hover;
@@ -103,6 +106,20 @@
                             }
                         }
                     }
+
+                     .close-btn{
+                    display: block;
+                    margin-right: -6rem;
+                    .hamburger-close{
+                        font-size: xx-large;
+                        color: white;
+                        cursor: pointer;
+                        :hover{
+                            color: white;
+                        }
+                    }
+            
+                }   
                 }
 
                 .Nav-right{
@@ -113,37 +130,40 @@
                 }
             }
 
-            // .open{
-            //     position: absolute;
-            //     top: 0;
-            //     left: 20%;
-            //     background-color: $hover-color;
-            //     right: 0;
-            //     height: 100vh;
-            //     width: 90%;
-            //     z-index: 100;
-            //     display: flex;
-            //     flex-direction: column;
-            //     transform: translateX(0%);
-            //     transition: transform 1.5s ease;
-            //     .close-btn{
-            //         display: block;
-                   
-            //         margin-right: -4rem;
-
-            //         .hamburger-close{
-            //             font-size: xx-large;
-            //             color: $base-color;
-            //         }
+            .open{
+                position: absolute;
+                top: 0;
+                left: 20%;
+                background-color: $hover-color;
+                right: 0;
+                height: 100vh;
+                width: 90%;
+                z-index: 100;
+                display: flex;
+                flex-direction: column;
+                transform: translateX(0%);
+                transition: transform 1s cubic-bezier(0.1, 0.7, 1.0, 0.1);
+                // transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+                // .close-btn{
+                //     display: block;
+                //     margin-right: -6rem;
+                //     .hamburger-close{
+                //         font-size: xx-large;
+                //         color: white;
+                //         cursor: pointer;
+                //         :hover{
+                //             color: white;
+                //         }
+                //     }
             
-            //     }   
-            // }
+                // }   
+            }
 
-            // .close{
-            //     transform: translateX(-100%);
-            //     transition: transform 1.5s ease;
+            .close{
+                transform: translateX(-100%);
+                transition: transform 1s cubic-bezier(0.1, 0.7, 1.0, 0.1);
 
-            // }
+            }
 
            
             .hamburger{
@@ -153,17 +173,28 @@
         }
     }
 }
-// @media screen and (min-width:900px) and (max-width:900px){
-//     .Outer-div{
-//         .Nav{
-//             .Nav-links{
-//                 .Nav-right{
-//                     display: none;
-//                 }
-//             }
-//         }
-//     }
-// }
+@media screen and (min-width:769px){
+    .Outer-div{
+        .Nav{
+            .Nav-links{
+                .Nav-right{
+                    .fa-large{
+                        display: none;
+                    }
+                }
+                .Nav-center{
+                    ul{
+                        li{
+                            .home{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

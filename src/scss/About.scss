@@ -53,16 +53,25 @@
     .About-div{
         width: 90%;
         margin: 2rem auto;
+        .about-div1{
+            h1{
+                font-size: large;
+            }
+        }
 
+        .date-div{
+            margin-left: 1rem;
+        }
         .about-body{
             .last-paragraph{
                 width: 85%;
             }
             .about-writer{
                 flex-direction: column;
-                
                 img{
-                    margin: 0 auto;
+                    margin: 0rem auto;
+                    height: auto;
+                    border-radius: round($number: 50%);
                 }
                 p{
                     width: 85%;

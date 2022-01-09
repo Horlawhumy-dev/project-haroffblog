@@ -21,7 +21,7 @@ const Footer = () => {
                         </ExternalLink>
                     </div>
                     <div className="Ext-link">
-                        <ExternalLink href="https://www.twitter.com/harof978">
+                        <ExternalLink href="https://www.twitter.com/HAROF97">
                                 <FaTwitterSquare />
                         </ExternalLink>
                     </div>

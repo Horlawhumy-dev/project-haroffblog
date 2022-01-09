@@ -5,6 +5,9 @@
     width: 65%;
     .contact-div1{
         margin-bottom: 1rem;
+        h1{
+            font-size: large;
+        }
     }
     .date-div{
         margin-bottom: 1.5rem;
@@ -41,10 +44,11 @@
     }
 
     .contact-form{
-        width: 80%;
+        width: 90%;
         margin: 2rem 0;
         h2{ 
             text-align: center;
+            font-size: large;
         }
         form{
             width: 100%;
@@ -109,6 +113,12 @@
         .contact-body{
             .last-paragraph{
                 width: 90%;
+                .profile-link{
+                    font-size: large;
+                    a{
+                        font-size: large;
+                    }
+                }
             }
         
             p:first-child{

@@ -4,25 +4,15 @@ import { ExternalLink } from 'react-external-link';
 import {FaGithubSquare} from 'react-icons/fa';
 import {ImLinkedin} from 'react-icons/im';
 import {SiLeetcode} from 'react-icons/si';
-// import {FaFacebookSquare} from 'react-icons/fa';
-// import {FaTwitterSquare} from 'react-icons/fa';
-// import {GrClose} from 'react-icons/gr';
+import {FaFacebookSquare} from 'react-icons/fa';
+import {FaTwitterSquare} from 'react-icons/fa';
+import {GrClose} from 'react-icons/gr';
 import {GiHamburgerMenu} from 'react-icons/gi';
 
 import '../../scss/Nav.scss';
 
 const Navbar = () => {
     const [hamClicked, setHamClicked] = useState(false);
-    
-    // const handleClickOpen = () => {
-    //     !hamClicked && setHamClicked(prev => !prev);
-    // }
-    // const handleClickClose = () => {
-    //     if (hamClicked === true){
-    //         setHamClicked(false);
-    //     }
-        
-    // }
     return (
        <div className="Outer-div">
            <nav className="Nav">
@@ -31,18 +21,18 @@ const Navbar = () => {
                         HBlog
                     </Link>
                </div>
-               <div className="Nav-links ">
+               <div className={hamClicked ? " Nav-links open" : "Nav-links close"}>
                     <div className="Nav-center">
-                        {/* <div className="close-btn">
-                            <GrClose   className="hamburger-close"/>
-                        </div> */}
+                        <div className="close-btn">
+                            <GrClose   onClick ={() => setHamClicked(false)} className="hamburger-close"/>
+                        </div>
                         <ul>
                             <li>
                                 <Link className="nav-link" to="/about">About</Link>
                             </li>
                           
                             <li>
-                                <ExternalLink className="nav-link" href="https://www.linkedin.com/in/arafat-o-olayiwola-b52087191/">
+                                <ExternalLink className="nav-link" href="https://drive.google.com/file/d/1ESH5dHVtlOkWy7nlQlYDKVrgFBqE1qyn/view?usp=sharing">
                                     Resume
                                 </ExternalLink>
                             </li>
@@ -52,7 +42,6 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="Nav-right">
-                        
                         <div className="Ext-link">
                             <ExternalLink href="https://www.linkedin.com/in/arafat-o-olayiwola-b52087191/">
                                     <ImLinkedin />
@@ -70,10 +59,20 @@ const Navbar = () => {
                                     <SiLeetcode />
                                 </ExternalLink>
                             </div>
+                            <div className="Ext-link fa-large">
+                                <ExternalLink href="https://twitter.com/HAROF97">
+                                    <FaTwitterSquare />
+                                </ExternalLink>
+                            </div>
+                            <div className="Ext-link fa-large">
+                                <ExternalLink href="https://web.facebook.com/profile.php?id=100009514147951">
+                                    <FaFacebookSquare />
+                                </ExternalLink>
+                            </div>
                         </div>
                 </div>
                 <div className="hamburger">
-                    <GiHamburgerMenu onClick ={() => setHamClicked(prev => !prev)} className="toggle"/>
+                    <GiHamburgerMenu onClick ={() => setHamClicked(true)} className="toggle"/>
                 </div>
            </nav>
        </div>
@@ -81,5 +80,3 @@ const Navbar = () => {
 }
 
 export default Navbar;
-
-// {"Nav-links " + hamClicked ? 'open' :  'close'}

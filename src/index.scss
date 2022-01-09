@@ -1,6 +1,10 @@
 @import "scss/Utils.scss";
 @import "scss/Config.scss";
 
+html{
+  max-width: 100%;
+  overflow-x: hidden;
+}
 *{
   @include reset-list;
 }

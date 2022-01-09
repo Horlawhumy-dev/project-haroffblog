@@ -41,7 +41,7 @@
                 text-align: center;
                 background-color: $base-color;
                 padding: .1rem;
-                border-radius: 1rem;
+                border-radius: 50%;
                 color: $hover-color;
                 font-size:small;
                 text-align: center;
@@ -96,7 +96,7 @@
             grid-gap: 10px;
             width: 100%;
             .topics-category{
-                width: 60%;
+                width: 80%;
                 margin: 0 auto;
                 padding: .5rem;
             }

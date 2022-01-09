@@ -5,7 +5,7 @@ import {AiFillInstagram} from 'react-icons/ai';
 import {ImLinkedin} from 'react-icons/im';
 import {BsFacebook} from 'react-icons/bs';
 import {AiFillTwitterCircle} from 'react-icons/ai';
-
+import photo from '../../asssets/photo.jpg'
 import '../../scss/Contact.scss';
 
 const Contact = () => {
@@ -13,7 +13,7 @@ const Contact = () => {
         <>
             <div className="Contact-div">
                 <div className="contact-div1">
-                    <h1>Contact The Writer</h1>
+                    <h1>Contact Haroff</h1>
                 </div>
                 <div className="date-div">
                     <span>
@@ -37,9 +37,6 @@ const Contact = () => {
                             Iste voluptatum alias soluta totam molestiae repellendus.
                             
                     </p><br /><br />
-
-                  
-
                     <p className="last-paragraph">
                         <ExternalLink className="profile-link" href="https://web.facebook.com/profile.php?id=100009514147951">
                             <BsFacebook /> Facebook
