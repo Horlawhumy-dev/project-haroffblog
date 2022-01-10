@@ -4,6 +4,9 @@
 .Contact-div .contact-div1 {
   margin-bottom: 1rem;
 }
+.Contact-div .contact-div1 h1 {
+  font-size: large;
+}
 .Contact-div .date-div {
   margin-bottom: 1.5rem;
   display: flex;
@@ -14,7 +17,6 @@
 .Contact-div .contact-body p:first-child {
   width: 100%;
   margin: 0 auto;
-  margin-left: 0;
 }
 .Contact-div .contact-body .last-paragraph {
   width: 80%;
@@ -35,11 +37,12 @@
   color: #00aaff;
 }
 .Contact-div .contact-form {
-  width: 80%;
+  width: 90%;
   margin: 2rem 0;
 }
 .Contact-div .contact-form h2 {
   text-align: center;
+  font-size: large;
 }
 .Contact-div .contact-form form {
   width: 100%;
@@ -82,17 +85,29 @@
 
 @media all and (max-width: 515px) {
   .Contact-div {
-    width: 80%;
+    width: 90%;
     margin: 2rem auto;
   }
   .Contact-div .contact-div1 h1 {
     width: 100%;
+    font-size: larger;
   }
   .Contact-div .date-div {
     width: 100%;
+    margin-left: 1rem;
+  }
+  .Contact-div .contact-body p {
+    width: 100%;
   }
   .Contact-div .contact-body .last-paragraph {
-    width: 90%;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .Contact-div .contact-body .last-paragraph .profile-link {
+    font-size: large;
+  }
+  .Contact-div .contact-body .last-paragraph .profile-link a {
+    font-size: large;
   }
   .Contact-div .contact-body p:first-child {
     width: 90%;

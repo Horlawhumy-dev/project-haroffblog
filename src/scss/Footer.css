@@ -93,6 +93,9 @@
     margin: 1rem auto;
     justify-content: center;
   }
+  .Footer-div .footer-1 .footer-nav-top .Nav-right .Ext-link a {
+    font-size: larger;
+  }
   .Footer-div .footer-1 .footer-div2 {
     margin: 2rem auto 2rem;
   }
@@ -117,8 +120,9 @@
   }
   .Footer-div .footer-1 .footer-nav-top .Nav-right .Ext-link {
     margin: 0 1rem;
-    font-size: x-large;
-    font-size: xx-large;
+  }
+  .Footer-div .footer-1 .footer-nav-top .Nav-right .Ext-link a {
+    font-size: large;
   }
   .Footer-div .footer-1 .footer-div2 {
     width: 90%;

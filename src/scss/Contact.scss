@@ -22,7 +22,6 @@
         p:first-child{
             width: 100%;
             margin:0 auto;
-            margin-left: 0;
         }
         .last-paragraph{
             width: 80%;
@@ -99,20 +98,26 @@
 
 @media all and (max-width:515px){
     .Contact-div{
-        width: 80%;
+        width: 90%;
         margin: 2rem auto;
 
         .contact-div1{
             h1{
                 width: 100%;
+                font-size: larger;
             }
         }
         .date-div{
             width: 100%;
+            margin-left: 1rem;
         }
         .contact-body{
+            p{
+                width: 100%;
+            }
             .last-paragraph{
-                width: 90%;
+                width: 80%;
+                margin: 0 auto;
                 .profile-link{
                     font-size: large;
                     a{

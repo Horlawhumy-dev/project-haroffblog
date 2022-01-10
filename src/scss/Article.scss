@@ -77,12 +77,15 @@
                     text-align: center;
                     cursor: pointer;
                     padding: 1rem;
-                }
+                    
 
+                }
                 .readmore-div:hover{
                     background-color: $hover-color;
                     transition: all 1.5s ease-in; 
                 }
+
+               
             }
         }
     }

@@ -1,5 +1,6 @@
 .App-header {
   width: 100%;
+  overflow-x: hidden;
 }
 .App-header .Center-header {
   width: 100%;
@@ -12,7 +13,7 @@
 .App-header .Center-header .welcome-div {
   padding: 0;
   width: 100%;
-  margin-top: -2rem;
+  margin-top: -5rem;
 }
 .App-header .Center-header .welcome-div h1 {
   width: 100%;

@@ -13,6 +13,7 @@ import '../../scss/Nav.scss';
 
 const Navbar = () => {
     const [hamClicked, setHamClicked] = useState(false);
+    
     return (
        <div className="Outer-div">
            <nav className="Nav">

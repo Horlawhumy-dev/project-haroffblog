@@ -78,8 +78,7 @@
 }
 
 
-
-@media screen and (max-width:768px) {
+@media screen and (max-width:768px) and (min-width:320px){
     .Outer-div{
         width: 120%;
         .Nav{
@@ -109,7 +108,7 @@
 
                      .close-btn{
                     display: block;
-                    margin-right: -6rem;
+                    margin-right: -16rem;
                     .hamburger-close{
                         font-size: xx-large;
                         color: white;
@@ -127,6 +126,11 @@
                     text-align: center;
                     margin-left: 1rem;
                     padding: 0;
+                    .Ext-link{
+                        a{
+                            font-size: x-large;
+                        }
+                    }
                 }
             }
 
@@ -137,26 +141,13 @@
                 background-color: $hover-color;
                 right: 0;
                 height: 100vh;
-                width: 90%;
+                width: 100%;
                 z-index: 100;
                 display: flex;
                 flex-direction: column;
-                transform: translateX(0%);
+                transform: translateX(-25%);
                 transition: transform 1s cubic-bezier(0.1, 0.7, 1.0, 0.1);
-                // transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-                // .close-btn{
-                //     display: block;
-                //     margin-right: -6rem;
-                //     .hamburger-close{
-                //         font-size: xx-large;
-                //         color: white;
-                //         cursor: pointer;
-                //         :hover{
-                //             color: white;
-                //         }
-                //     }
-            
-                // }   
+                padding-left: 2rem;
             }
 
             .close{
@@ -173,6 +164,99 @@
         }
     }
 }
+
+
+
+@media screen and (max-width:319px) and (min-width:250px){
+    .Outer-div{
+        width: 120%;
+        .Nav{
+            display: flex;
+            justify-content: space-around;
+            
+            .Nav-links{
+                display: none;
+                transform: translateX(100%);
+                transition: transform 1.5s ease;
+                .Nav-center{
+                    ul{
+                        display: flex;
+                        align-items: flex-start;
+                        flex-direction: column;
+                        justify-content: center;
+
+                        li{
+                            margin: 2rem;
+                            color: $hover-color;
+
+                            .nav-link:hover{
+                                color: $header-footer;
+                            }
+                        }
+                    }
+
+                     .close-btn{
+                    display: block;
+                    margin-right: -13rem;
+                    .hamburger-close{
+                        font-size: xx-large;
+                        color: white;
+                        cursor: pointer;
+                        :hover{
+                            color: white;
+                        }
+                    }
+            
+                }   
+                }
+
+                .Nav-right{
+                    margin-bottom: 4rem;
+                    text-align: center;
+                    margin-left: 1rem;
+                    padding: 0;
+                    .Ext-link{
+                        a{
+                            font-size: x-large;
+                        }
+                    }
+                }
+            }
+
+            .open{
+                position: absolute;
+                top: 0;
+                left: 20%;
+                background-color: $hover-color;
+                right: 0;
+                height: 100vh;
+                width: 100%;
+                z-index: 100;
+                display: flex;
+                flex-direction: column;
+                transform: translateX(-25%);
+                transition: transform 1s cubic-bezier(0.1, 0.7, 1.0, 0.1);
+                // padding-left: 2rem;
+            }
+
+            .close{
+                transform: translateX(-100%);
+                transition: transform 1s cubic-bezier(0.1, 0.7, 1.0, 0.1);
+
+            }
+
+           
+            .hamburger{
+                display: block;
+                margin: 1rem;
+            }
+        }
+    }
+}
+
+
+
+
 @media screen and (min-width:769px){
     .Outer-div{
         .Nav{

@@ -14,34 +14,33 @@ const Footer = () => {
                 <div className='footer-nav-top'>
                     <h4>Social Links</h4>
                     <div className="Nav-right">
-                    
-                    <div className="Ext-link">
-                        <ExternalLink href="https://www.linkedin.com/in/arafat-o-olayiwola-b52087191/">
-                                <ImLinkedin />
-                        </ExternalLink>
-                    </div>
-                    <div className="Ext-link">
-                        <ExternalLink href="https://www.twitter.com/HAROF97">
-                                <FaTwitterSquare />
-                        </ExternalLink>
-                    </div>
-                    <div className="Ext-link">
-                        <ExternalLink href="https://web.facebook.com/profile.php?id=100009514147951">
-                                <FaFacebookSquare />
-                        </ExternalLink>
-                    </div>
+                        <div className="Ext-link">
+                            <ExternalLink href="https://www.linkedin.com/in/arafat-o-olayiwola-b52087191/">
+                                    <ImLinkedin />
+                            </ExternalLink>
+                        </div>
+                        <div className="Ext-link">
+                            <ExternalLink href="https://www.twitter.com/HAROF97">
+                                    <FaTwitterSquare />
+                            </ExternalLink>
+                        </div>
+                        <div className="Ext-link">
+                            <ExternalLink href="https://web.facebook.com/profile.php?id=100009514147951">
+                                    <FaFacebookSquare />
+                            </ExternalLink>
+                        </div>
 
-                    <div className="Ext-link">
-                        <ExternalLink href="https://github.com/Horlawhumy-dev">
-                                <FaGithubSquare />
-                        </ExternalLink>
-                    </div>
+                        <div className="Ext-link">
+                            <ExternalLink href="https://github.com/Horlawhumy-dev">
+                                    <FaGithubSquare />
+                            </ExternalLink>
+                        </div>
 
-                    <div className="Ext-link">
-                        <ExternalLink href="https://leetcode.com/Horlawhumy-dev/">
-                            <SiLeetcode />
-                        </ExternalLink>
-                    </div>
+                        <div className="Ext-link">
+                            <ExternalLink href="https://leetcode.com/Horlawhumy-dev/">
+                                <SiLeetcode />
+                            </ExternalLink>
+                        </div>
                 </div>
                 </div>
                 <div className="footer-div2">
