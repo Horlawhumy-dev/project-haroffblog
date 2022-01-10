@@ -1,15 +1,8 @@
 @import 'Config.scss';
-.Loader{
-    width: 100%;
-    height: 100vh;
+
+.center{
     display: flex;
-    align-items: center;
     justify-content: center;
-
-
-    img{
-        width: 20%;
-        height: 30%;
-        filter: opacity(0.5) drop-shadow(0 0 0 $base-color);
-    }
+    align-items: center;
+    margin-top: 50vh;
 }

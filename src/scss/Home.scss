@@ -13,8 +13,9 @@
         flex-direction: column;
 
         .welcome-div{
-            padding: 1rem 0;
+            padding:  0;
             width: 100%;
+            margin-top: -2rem;
             h1{
                 width: 100%;
                 margin: 0 auto;
@@ -29,7 +30,7 @@
                 margin: 0 auto;
                 padding: 1rem 0;
                 text-align: center;
-                font-size: 2rem;
+                font-size: larger;
                 
             }
         }
