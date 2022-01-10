@@ -6,17 +6,17 @@ import Aux from '.././../hoc/Auxiliary'
 import '../../scss/Home.scss';
 import '../../scss/Responsive.scss';
 import Header from '../header/Header';
-import Carousel from '../homepage/Carousel';
+
 import Section from '../body/Section';
 import Footer from '../../components/footer/Footer';
-
+import SectionPost from '../Engd/Post';
 const HomePage = () => {
     return (
         <Aux>
             <Navbar />
             <Header />
             <Section />
-            <Carousel />
+            <SectionPost />
             <Footer />
         </Aux>
     );

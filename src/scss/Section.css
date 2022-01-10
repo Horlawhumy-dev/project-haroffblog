@@ -3,6 +3,9 @@
   justify-content: space-between;
   padding: 2rem 3rem;
 }
+.Section-div .right {
+  width: 30%;
+}
 
 @media screen and (max-width: 768px) {
   .Section-div {

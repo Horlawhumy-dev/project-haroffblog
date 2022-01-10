@@ -32,13 +32,19 @@ const Navbar = () => {
                                 <Link className="nav-link" to="/about">About</Link>
                             </li>
                           
+                           
+                            <li>
+                                    <Link className="nav-link" to="/contact">Contact</Link>
+                            </li>
                             <li>
                                 <ExternalLink className="nav-link" href="https://drive.google.com/file/d/1ESH5dHVtlOkWy7nlQlYDKVrgFBqE1qyn/view?usp=sharing">
                                     Resume
                                 </ExternalLink>
                             </li>
                             <li>
-                                    <Link className="nav-link" to="/contact">Contact</Link>
+                                <ExternalLink className="nav-link" href="https://www.section.io/engineering-education/authors/arafat-olayiwola/">
+                                    Engd
+                                </ExternalLink>
                             </li>
                         </ul>
                     </div>

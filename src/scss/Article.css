@@ -69,19 +69,19 @@
     width: 100%;
   }
   .Article-div .article-container {
-    width: 100%;
+    width: 95%;
   }
 }
 @media all and (max-width: 768px) {
   .Article-div .article-container {
-    width: 100%;
+    width: 90%;
   }
   .Article-div .article-container .showcase-div {
     display: flex;
     flex-direction: column;
   }
   .Article-div .article-container .showcase-div .article-intro-div {
-    width: 90%;
+    width: 80%;
     margin-top: -1rem;
   }
   .Article-div .article-container .showcase-div .article-image {
@@ -103,7 +103,7 @@
        object-fit: cover;
   }
   .Article-div .showcase-div .article-intro-div {
-    margin-left: -4rem;
+    margin-left: 0rem;
   }
 }
 @media all and (max-width: 500px) {

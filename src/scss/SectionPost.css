@@ -1,0 +1,16 @@
+.SectionPost {
+  text-align: start;
+  margin-left: 2rem;
+}
+.SectionPost h1 {
+  margin-bottom: 1rem;
+}
+.SectionPost ul li {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+.SectionPost ul li span {
+  color: #00aaff;
+  margin-bottom: 1rem;
+}/*# sourceMappingURL=SectionPost.css.map */

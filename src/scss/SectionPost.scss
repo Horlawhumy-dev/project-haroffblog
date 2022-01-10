@@ -1,0 +1,22 @@
+@import "../scss/Config.scss";
+@import "../scss/Utils.scss";
+.SectionPost{
+    text-align: start;
+    margin-left: 2rem;
+    h1{
+        margin-bottom: 1rem;
+    }
+
+    ul{
+        li{
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1rem;
+
+            span{
+                color: $hover-color;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
