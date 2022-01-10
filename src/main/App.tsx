@@ -5,7 +5,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Loader from '../components/Loader/Loader';
+import Loader from '../components/Loader/loader';
 import HomePage from '../components/homepage/HomePage';
 import AboutPage from '../components/aboutpage/AboutPage';
 import ContactPage from '../components/contactpage/ContactPage';

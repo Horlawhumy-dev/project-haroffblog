@@ -10,8 +10,9 @@
   flex-direction: column;
 }
 .App-header .Center-header .welcome-div {
-  padding: 1rem 0;
+  padding: 0;
   width: 100%;
+  margin-top: -2rem;
 }
 .App-header .Center-header .welcome-div h1 {
   width: 100%;
@@ -26,7 +27,7 @@
   margin: 0 auto;
   padding: 1rem 0;
   text-align: center;
-  font-size: 2rem;
+  font-size: larger;
 }
 .App-header .Center-header .form-div {
   margin-top: 1.5rem;

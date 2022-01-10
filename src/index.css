@@ -11,6 +11,10 @@ body {
   background-color: #F2F2F2;
   position: relative;
 }
+body p {
+  text-align: start;
+  margin-left: 1rem;
+}
 
 code {
   font-family: "Montserrat", sans-serif;
